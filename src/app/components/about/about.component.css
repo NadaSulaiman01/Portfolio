@@ -1,0 +1,51 @@
+  .line {
+    width: 30%;
+    border: none;
+    border-top: 2px solid black;
+  }
+  
+  .title{
+    font-weight: 700;
+  }
+
+  .mainAbout{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .skills{
+     min-width: 40%; 
+    
+  }
+
+  .qualifications{
+    /* max-width: 70%; */
+    padding-left: 1rem;
+    padding-right: 3rem;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  span{
+    min-width: 20%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .pill {
+  display: inline-block;
+  padding: 10px 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+
+.pill:hover {
+  box-shadow: 0px 15px 20px rgba(20, 6, 48, 0.26);
+  transform: translateY(-4px);
+  cursor: default;
+}
+
+
