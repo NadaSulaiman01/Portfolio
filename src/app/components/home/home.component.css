@@ -8,6 +8,13 @@ p{
     font-weight: 800;
 }
 
-.icon{
-    font-size: 50px;
+
+.homeDiv{
+margin-top: 7rem;
+margin-bottom: 7rem;
+
+}
+
+img{
+    width: 100%;
 }
