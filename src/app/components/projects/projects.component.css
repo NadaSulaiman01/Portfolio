@@ -1,0 +1,84 @@
+.line {
+    width: 30%;
+    border: none;
+    border-top: 2px solid black;
+  }
+  
+  .title{
+    font-weight: 700;
+  }
+
+  p{
+    font-weight: 400;
+    font-size:24px;
+}
+
+.mainDiv{
+    padding-top: 5rem;
+}
+
+.subtitle{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.arrow{
+  max-width: 30%;
+}
+
+@media only screen and (min-width: 992px) {
+  .subtitle{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .imgDiv{
+    max-width: 50%;
+  }
+  /* .projectDescription{
+    margin-right: 8rem;
+  } */
+  .projectDescription{
+    max-width: 50%;
+  }
+  
+.arrow{
+  max-width: 10%;
+}
+}
+
+
+img{
+  max-width: 70%;
+
+}
+
+.projectDescription p{
+  font-size: 18px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  box-shadow: 0px 5px 5px rgba(20, 6, 48, 0.26);
+  transform: translateY(-4px);
+  color:darkslategray;
+  background-color: aliceblue;
+  font-weight: 800;
+
+}
+
+a{
+  text-decoration: none;
+  font-weight: 900;
+}
+
+span{
+  font-size: large;
+}
+
