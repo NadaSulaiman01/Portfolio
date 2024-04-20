@@ -1,0 +1,17 @@
+.line {
+    width: 30%;
+    border: none;
+    border-top: 2px solid black;
+  }
+  
+  .title{
+    font-weight: 700;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .contactCard{
+    min-width: 50%;
+  }
