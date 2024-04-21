@@ -27,7 +27,7 @@ export class ProjectsComponent {
       projectId: 1,
       title: "Internet Movies Database",
       description: `A dynamic web-based platform designed for movie enthusiasts.
-       It offers a vast collection of movies with detailed information, including ratings, plot and cast details.<br>
+       It offers a vast collection of movies with detailed information, including ratings, plot and cast details.
         Users can review the movies and check other users' reviews.<br>
          The platform also features an admin dashboard for content and review management.<br>
           The website uses a cloud-based image and video management service for efficient media handling, which ensures high performance and scalability.`,
