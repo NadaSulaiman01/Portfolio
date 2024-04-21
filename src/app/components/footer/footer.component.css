@@ -5,3 +5,8 @@ a {
 .footerMain{
     margin-top: 5rem;
 }
+
+.data {
+    max-width: 120rem;
+    width: 100%;
+}
