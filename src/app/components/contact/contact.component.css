@@ -29,3 +29,12 @@
   .secondDiv{
     max-width: 100%;
   }
+
+  .sizing{
+    max-width: 120rem;
+  }
+  
+  .mainAbout{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }

@@ -2,12 +2,13 @@
     <div class="secondDiv">
 
         <div class=" mainDiv">
-            <div class="sizing d-flex justify-content-around align-items-center text-center mb-1 pb-1 mt-xl-3">
+            <div class="sizing d-flex justify-content-between align-items-center text-center mb-1 pb-1 mt-xl-3">
                 <hr class="line">
                 <h1 class="title">Projects</h1>
                 <hr class="line">
             </div>
         </div>
+        <div class="mainAbout sizing">
         <div class="d-flex justify-content-center align-items-center subtitle mb-1">
             <div class="secSubtitle text-center">
             <p>This is a collection of full-stack projects that I have developed. For a more detailed view of each
@@ -19,15 +20,17 @@
         <div class="projects d-flex flex-column">
             <div *ngFor="let project of projects">
                 <div
-                    class="d-flex flex-column-reverse flex-lg-row justify-content-around align-items-start mb-3 mt-5 mx-lg-5">
+                    class="d-flex flex-column-reverse flex-lg-row justify-content-around align-items-start mb-3 mt-5 mx-0">
                     <div class="d-flex justify-content-center align-items-center imgDiv">
                         <img [src]=project.imageURL [alt]=project.title>
                     </div>
                     <div
-                        class="projectDescription px-4 py-2 d-flex flex-column justify-content-center mx-md-0 mx-4 mb-5  ">
+                        class="projectDescription px-4 py-2 d-flex flex-column justify-content-center mx-0 mb-5  ">
                         <h3 class="mb-4">{{project.title}}</h3>
+                        <div class="innerDescription">
                         <p class="mb-4" [innerHTML]="project.description">
                         </p>
+                    </div>
                         <div>
                             <button type="button" class="btn btn-primary">Details</button>
                         </div>
@@ -48,6 +51,7 @@
             <span>Check out my Github <a href="https://github.com/NadaSulaiman01" target="_blank">here <i
                         class="bi bi-github"></i> </a></span>
         </div>
+    </div>
 
     </div>
 </div>
