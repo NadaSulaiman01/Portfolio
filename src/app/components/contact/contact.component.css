@@ -12,11 +12,11 @@
     font-size: 18px;
   }
 
-  .contactCard{
+  /* .contactCard{
     min-width: 50%;
   }
-  
-  .contactHeader{
+   */
+  /* .contactHeader{
     max-width: 120rem;
 
   }
@@ -24,17 +24,18 @@
   .contactDetails{
     max-width: 120rem;
 
-  }
+  } */
 
   .secondDiv{
-    max-width: 100%;
+    max-width: 120rem;
+    width: 100%;
   }
 
   .sizing{
     max-width: 120rem;
   }
   
-  .mainAbout{
+  .mainContact{
     margin-left: 4rem;
     margin-right: 4rem;
   }
