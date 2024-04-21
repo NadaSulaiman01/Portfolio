@@ -15,7 +15,7 @@
 
 .mainDiv{
     padding-top: 5rem;
-    max-width: 120rem;
+    /* max-width: 120rem; */
 }
 
 .subtitle{
@@ -90,4 +90,12 @@ span{
 
 .secondDiv{
   max-width: 100%;
+}
+
+.secSubtitle{
+  max-width: 65rem;
+}
+
+.sizing{
+  max-width: 120rem;
 }
