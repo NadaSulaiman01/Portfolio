@@ -6,6 +6,7 @@
   
   .title{
     font-weight: 700;
+    min-width: 200px;
   }
 
   p{
