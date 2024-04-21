@@ -15,11 +15,13 @@
 
 .mainDiv{
     padding-top: 5rem;
+    max-width: 120rem;
 }
 
 .subtitle{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  max-width: 120rem;
 }
 
 .arrow{
@@ -82,3 +84,10 @@ span{
   font-size: large;
 }
 
+.projects{
+  max-width: 120rem;
+}
+
+.secondDiv{
+  max-width: 100%;
+}
