@@ -15,3 +15,17 @@
   .contactCard{
     min-width: 50%;
   }
+  
+  .contactHeader{
+    max-width: 120rem;
+
+  }
+
+  .contactDetails{
+    max-width: 120rem;
+
+  }
+
+  .secondDiv{
+    max-width: 100%;
+  }
