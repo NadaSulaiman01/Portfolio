@@ -34,11 +34,11 @@
 <div class="d-flex justify-content-center align-items-center">
     <div class="sizing d-flex flex-column justify-content-center align-items-center py-5">
         <div class="icon bg-primary d-flex justify-content-center align-content-center">
-            <i class="bi bi-basket2"></i>
+            <i [ngClass]="project.icon"></i>
         </div>
-        <h1 class="mainHeader mb-4 text-center">Online Bookstore</h1>
+        <h1 class="mainHeader mb-4 text-center">{{project.title}}</h1>
         <div class="simpleLine mb-4"></div>
-        <p class="subtitle text-center">An Online Shopping Platform with a comprehensive selection of products, easy navigation, secure transactions, and an integrated inventory management system.</p>
+        <p class="subtitle text-center">{{project.subTitle}}</p>
         <div class="buttons d-flex flex-column flex-md-row justify-content-center align-items-start align-items-md-center">
             <button type="button" class="btn btn-primary me-3 text-center mb-3">Overview</button>
             <button type="button" class="btn btn-secondary button2 text-center mb-3">Gallery</button>

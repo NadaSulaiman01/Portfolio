@@ -8,7 +8,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 
 const routes : Routes = [
 
-  {path : "**", component: ProjectLayoutComponent},
+  {path : "project/:pid", component: ProjectLayoutComponent},
 
 ]
 

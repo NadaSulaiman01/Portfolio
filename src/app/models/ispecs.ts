@@ -9,4 +9,5 @@ export interface Ispecs {
     arch: Map<string,string>;
     logos: Map<string,string>;
     screenshots: string[];
+    github: string
 }

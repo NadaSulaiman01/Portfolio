@@ -38,8 +38,8 @@ export class ProjectsComponent {
     
   }
 
-  goToProject(){
-    this.router.navigateByUrl('/project');
+  goToProject(id : number){
+    this.router.navigateByUrl('/projects/project/'+id);
 
   }
 
