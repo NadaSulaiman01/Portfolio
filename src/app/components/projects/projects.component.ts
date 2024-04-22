@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { Iproject } from 'src/app/models/iproject';
 
 @Component({
@@ -12,7 +13,7 @@ export class ProjectsComponent {
   /**
    *
    */
-  constructor() {
+  constructor(private router : Router) {
     this.projects = [{
       projectId: 0,
       title: "Online Bookstore",
@@ -35,6 +36,11 @@ export class ProjectsComponent {
     }
   ];
     
+  }
+
+  goToProject(){
+    this.router.navigateByUrl('/project');
+
   }
 
 }
