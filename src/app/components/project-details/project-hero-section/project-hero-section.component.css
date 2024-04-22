@@ -1,0 +1,33 @@
+/* .sizing{
+    max-width: 120rem;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0, 0, 0, 0.512)), url('https://res.cloudinary.com/dhazmjqap/image/upload/v1713771624/home_bu3hll.png');
+    background-size: cover;
+    min-height: 30rem;
+} */
+
+.sizing{
+    max-width: 120rem;
+    width: 100%;
+    /* background: linear-gradient(to right, rgb(100, 100, 100), white), linear-gradient(to bottom, black, white);
+    background-blend-mode: screen; */
+    /* background-color: grey; */
+    background: linear-gradient(to bottom, rgb(235, 254, 255), white);
+
+} 
+
+
+p{
+    font-size: 22px;
+    max-width: 60rem;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+img{
+    max-width: 90%;
+    max-width: 30rem;
+}
