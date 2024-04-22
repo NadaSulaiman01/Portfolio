@@ -1,15 +1,15 @@
-h4{
+h4 {
     font-weight: 700;
 }
 
-.main{
+.main {
     /* transition: transform 0.5s;
     transform-style: preserve-3d; */
 
     transition: transform 1.5s;
     transform-style: preserve-3d;
     perspective: 1000px;
-    box-shadow:  0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border: 2px solid aliceblue;
     min-width: 400px;
     max-width: 520px;
@@ -22,21 +22,45 @@ h4{
 .main:hover {
     /* transform: perspective(500px) rotateX(5deg) rotateY(5deg); */
     transform: rotatey(360deg);
-    
-  }
 
-a{
+}
+
+a {
     text-decoration: none;
     font-weight: 500;
 }
 
-img{
+img {
     max-width: 80px;
-    height:fit-content;
+    height: fit-content;
     border: 1px solid gainsboro;
     /* border-radius: 30px; */
 }
 
-.details{
+.details {
     min-width: 250px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .details {
+        min-width: 250px;
+    }
+
+    .details {
+        min-width: 150px;
+    }
+
+    .main {
+        transition: transform 1.5s;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        border: 2px solid aliceblue;
+        min-width: 300px;
+        max-width: 520px;
+
+    }
+
+
 }

@@ -1,20 +1,11 @@
-/* .sizing{
-    max-width: 120rem;
-    width: 100%;
-    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0, 0, 0, 0.512)), url('https://res.cloudinary.com/dhazmjqap/image/upload/v1713771624/home_bu3hll.png');
-    background-size: cover;
-    min-height: 30rem;
-} */
 
-.sizing{
-    max-width: 120rem;
-    width: 100%;
-    /* background: linear-gradient(to right, rgb(100, 100, 100), white), linear-gradient(to bottom, black, white);
-    background-blend-mode: screen; */
-    /* background-color: grey; */
-    background: linear-gradient(to bottom, rgb(235, 254, 255), white);
 
-} 
+
+
+/* .main{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 
 
 p{
@@ -27,7 +18,80 @@ h1{
     font-size: 32px;
 }
 
-img{
-    max-width: 90%;
-    max-width: 30rem;
+
+.headerOne{
+font-weight: 800;
+font-size: 42px;
 }
+
+.sub{
+    font-weight: 600px;
+    font-size: 38px;
+
+}
+
+.textData{
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+} */
+
+
+.sizing{
+    max-width: 120rem;
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.mainHeader{
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.simpleLine{
+    width: 5rem;
+
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.subtitle{
+    font-weight: 600;
+    font-size: larger;
+    max-width: 50rem;
+    margin-bottom: 5rem;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    min-width: 15rem;
+  }
+  
+  button:hover{
+    box-shadow: 0px 5px 5px rgba(20, 6, 48, 0.26);
+    transform: translateY(-4px);
+    color:darkslategray;
+    background-color: aliceblue;
+    font-weight: 800;
+    border: 1px solid rgba(0, 0, 0, 0.495);
+  
+  }
+
+  .button2{
+    border: 1px solid rgba(0, 0, 0, 0.495);
+  }
+
+  .icon{
+    margin-bottom: 4rem;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    height: 5rem;
+    width: 5rem;
+    border: 1px soild black;
+    border-radius: 40px;
+  }

@@ -1,0 +1,143 @@
+<div class="d-flex justify-content-center align-items-center">
+    <div class="sizing">
+        <div class="accordion px-5 mt-5" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button (click)="isTabOneOpen = !isTabOneOpen" class="accordion-button" [ngClass]="isTabOneOpen ? 'bg-primary':'bg-secondary' " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <h4 [ngClass]="isTabOneOpen ? 'text-light':''">Project Overview and Features</h4>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body p-4">
+                        <p class="text-primary">This is an online shopping platform that offers a user-friendly and secure shopping experience. It’s designed with a modern look and feel, and it’s easy to navigate for all users. </p>
+                        <ul>
+                            <li class="mb-1">
+                               <strong>User-Friendly Design:</strong> The website has a clean and intuitive design, making it easy for users to browse and find what they’re looking for.
+                            </li>
+                            <li class="mb-1">
+                               <strong>Secure User Accounts:</strong> Users can create their own personal accounts, allowing them to track their orders, save their shipping information, and more.
+                            </li>
+                            <li class="mb-1">
+                                <strong>Social Media Login:</strong>  For convenience, users have the option to log in using their Google or Facebook accounts.
+                            </li>
+                            <li>
+                                Product Variety: The website offers a wide range of products, catering to different tastes and needs.
+                            </li>
+                            <li>
+                                Shopping Cart: Users can easily add items to their shopping cart and view their selected items before making a purchase.
+                            </li>
+                            <li>
+                                Different Payment Options: The website offers secure online payments as well as the pay cash upon delivery option.
+                            </li>
+                            <li>
+                                Email Notifications: Users receive email notifications about their orders, keeping them updated on the status of their purchases.
+                            </li>
+                            <li>
+                                Mobile-Friendly: The website is designed to work well on both desktop and mobile devices, allowing users to shop anytime, anywhere.
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button (click)="isTabTwoOpen = !isTabTwoOpen"  [ngClass]="isTabTwoOpen ? 'bg-primary':'bg-secondary' " class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <h4 [ngClass]="isTabTwoOpen? 'text-light':''">Technical implementation and architecture</h4>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body p-4">
+                        <p class="text-primary">The web application is built using ASP.NET Core MVC, Entity Framework Core, and ASP.NET Core Identity. The application is designed with a user-friendly interface and secure, efficient back-end functionalities. </p>
+                        <ul>
+                            <li class="mb-1">
+                               <strong>ASP.NET Core MVC Structure:</strong> The application follows the Model-View-Controller (MVC) design pattern, ensuring a clean separation of concerns and easier maintenance.
+                            </li>
+                            <li class="mb-1">
+                               <strong>Entity Framework Core:</strong> This feature allows efficient data access and manipulation using code-first migrations.
+                            </li>
+                            <li class="mb-1">
+                                <strong>ASP.NET Core Identity:</strong> This provides secure user authentication and authorization.
+                            </li>
+                            <li>
+                                Razor Class Library Interaction: The application interacts with the Razor class library for Identity.
+                            </li>
+                            <li>
+                                Session Management: The application effectively manages user sessions, ensuring a personalized user experience.
+                            </li>
+                            <li>
+                                Bootstrap v5: This ensures the application is mobile-friendly and has a modern, responsive design.
+                            </li>
+                            <li>
+                                Third-Party Authentication: The application supports Google and Facebook login.
+                            </li>
+                            <li>
+                                Role Management: This feature allows for the assignment of roles to users, enhancing the security and functionality of the application.
+                            </li>
+                            <li>
+                                Email Notifications: The application can send email notifications using SendGrid.
+                            </li>
+                            <li>
+                                Stripe Payment Integration: This allows for secure online payments.
+                            </li>
+                            <li>
+                                Repository Pattern: This design pattern is used for data access, making the code more readable, scalable, and maintainable.
+                            </li>
+
+                        </ul>
+                        <div class="frameworks py-4">
+                        <p class="text-primary mb-4"><strong>Tools and frameworks: </strong></p>
+                        <div class="logos d-flex flex-wrap justify-content-around align-items-center">
+                            <div class="image me-5 mb-5">
+                                <img src="https://res.cloudinary.com/dhazmjqap/image/upload/v1713740499/html_nclh4a.png" alt="HTML5">
+
+                            </div>
+                            <div class="image me-5 mb-5">
+                                <img src="https://res.cloudinary.com/dhazmjqap/image/upload/v1713740498/css-logo_yeyazf.png" alt="CSS3">
+                            </div>
+                            <div class="image me-5 mb-5">
+                                <img src="https://res.cloudinary.com/dhazmjqap/image/upload/v1713740497/bootstrap-5-logo-icon_up2rul.png" alt="Bootstrap">
+                            </div>
+                            <div class="image me-5 mb-5">
+                                <img src="https://res.cloudinary.com/dhazmjqap/image/upload/v1713740501/NET_Core_Logo.svg_y8ek8n.png" alt=".NET Core">
+                            </div>
+                            <div class="image me-5 mb-5">
+                                <img src="https://res.cloudinary.com/dhazmjqap/image/upload/v1713740500/sql_server_l4xjc4.png" alt="SQL Server">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
