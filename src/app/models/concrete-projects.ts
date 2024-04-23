@@ -42,9 +42,11 @@ export class ConcreteProjects {
             ["SQL Server", "https://res.cloudinary.com/dhazmjqap/image/upload/v1713740500/sql_server_l4xjc4.png"],
           
         ]),
-        screenshots : ["https://res.cloudinary.com/dhazmjqap/image/upload/v1713771624/home_bu3hll.png",
-            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713771624/home_bu3hll.png",
-            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713771624/home_bu3hll.png"
+        screenshots : ["https://res.cloudinary.com/dhazmjqap/image/upload/v1713895544/one_kjwf7a.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895540/two_kucpec.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895527/three_hciixr.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895528/four_udseqh.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895531/five_z7ahya.png"
         ],
         github: "https://github.com/NadaSulaiman01/eCommerce_MVC"
     }];
