@@ -40,8 +40,8 @@
         <div class="simpleLine mb-4"></div>
         <p class="subtitle text-center">{{project.subTitle}}</p>
         <div class="buttons d-flex flex-column flex-md-row justify-content-center align-items-start align-items-md-center">
-            <button type="button" class="btn btn-primary me-3 text-center mb-3">Overview</button>
-            <button type="button" class="btn btn-secondary button2 text-center mb-3">Gallery</button>
+            <button type="button" class="btn btn-primary me-3 text-center mb-3" [routerLink]="['/projects/project', project.projectId]" fragment="overview" >Overview</button>
+            <button type="button" class="btn btn-secondary button2 text-center mb-3" [routerLink]="['/projects/project', project.projectId]" fragment="gallery">Gallery</button>
         </div>
     </div>
 </div>

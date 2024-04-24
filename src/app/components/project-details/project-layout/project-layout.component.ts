@@ -20,6 +20,14 @@ export class ProjectLayoutComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+    this.activatedRoute.fragment.subscribe((data) => {
+      this.scrollToSection(data);
+
+    });
+
+
+
     this.activatedRoute.params.subscribe(params => {
       let term = params['pid'];
       if (term) {
@@ -46,5 +54,17 @@ export class ProjectLayoutComponent implements OnInit {
     })
 
   }
+
+  scrollToSection(section : any){
+    const element = document.getElementById(section);
+  if (element) {
+    const rect = element.getBoundingClientRect();
+    let offset = 80;
+    const y = rect.top + window.pageYOffset - offset;
+    window.scrollTo({top: y, behavior: 'smooth'});
+    this.router.navigate([]);
+  }
+  }
+
 
 }
