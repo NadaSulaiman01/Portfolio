@@ -105,3 +105,12 @@ span{
   margin-left: 4rem;
   margin-right: 4rem;
 }
+
+@media only screen and (max-width: 767.98px) {
+
+
+  .mainAbout{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

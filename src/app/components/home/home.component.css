@@ -8,6 +8,14 @@ p{
     font-weight: 800;
 }
 
+@media only screen and (max-width: 767.98px) {
+
+    .name{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
+
 
 .homeDiv{
 margin-top: 7rem;
