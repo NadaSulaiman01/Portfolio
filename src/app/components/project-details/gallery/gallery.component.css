@@ -5,7 +5,7 @@ a{
 .sizing{
     max-width: 120rem;
     width: 100%;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .mainHeader{
@@ -36,7 +36,7 @@ a{
 
 
 .buttons{
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 5rem;
   max-width: 32rem;
   width: 100%;
