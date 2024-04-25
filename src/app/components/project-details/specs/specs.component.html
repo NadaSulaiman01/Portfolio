@@ -51,7 +51,7 @@
                             <div class="logos d-flex flex-wrap justify-content-around align-items-center">
                                 <div class="image me-5 mb-5"
                                     *ngFor="let logo of project.logos | keyvalue: originalOrder; let i = index">
-                                    <img [src]="logo.value" [alt]="logo.key">
+                                    <img [src]="logo.value" [alt]="logo.key" [title]="logo.key">
 
                                 </div>
 
