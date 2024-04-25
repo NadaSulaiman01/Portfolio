@@ -15,7 +15,7 @@ export class ConcreteProjects {
             ["Social Media Login:","  For convenience, users have the option to log in using their Google or Facebook accounts."],
             ["Product Variety:"," The website offers a wide range of products, catering to different tastes and needs."],
             ["Shopping Cart:"," Users can easily add items to their shopping cart and view their selected items before making a purchase."],
-            ["Different Payment Options:"," The website offers secure online payments as well as the pay cash upon delivery option."],
+            ["Different Payment Options:"," The website offers secure online payments as well as pay cash upon delivery option."],
             ["Email Notifications:"," Users receive email notifications about their orders, keeping them updated on the status of their purchases."],
             ["Inventory Management:", " The website allows the admins to manage the inventory and process/cancel orders."] ,
             ["Mobile-Friendly:"," The website is designed to work well on both desktop and mobile devices, allowing users to shop anytime, anywhere."]
@@ -23,7 +23,7 @@ export class ConcreteProjects {
         tech: "The web application is built using ASP.NET Core MVC, Entity Framework Core, and ASP.NET Core Identity. The application is designed with a user-friendly interface and secure, efficient back-end functionalities.",
         arch: new Map<string, string>([
             ["ASP.NET Core MVC Structure:"," The application follows the Model-View-Controller (MVC) design pattern, ensuring a clean separation of concerns and easier maintenance."],
-            ["Entity Framework Core:"," This allows for efficient data access and manipulation using code-first migrations."],
+            ["Entity Framework Core:"," This ORM is used to simplify database operations and for efficient data and manipulation using code-first migrations."],
             ["ASP.NET Core Identity:"," This provides secure user authentication and authorization."],
             ["Razor Class Library Interaction:"," The application interacts with the Razor class library for Identity."],
             ["Session Management:"," The application effectively manages user sessions, ensuring a personalized user experience."],
@@ -52,8 +52,8 @@ export class ConcreteProjects {
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038866/seven_yszl4z.png",
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038875/eight_oibwlw.png",
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038866/nine_lbdaly.png",
-            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038869/ten_cj3y8q.png",
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038863/eleven_s1gmta.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038869/ten_cj3y8q.png",
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038869/twelve_rfimrc.png",
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038869/thirteen_ybbnec.png",
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038868/fourteen_jwk9f7.png",
@@ -80,7 +80,7 @@ export class ConcreteProjects {
             ["Genre-Based Browsing:"," Users can explore movies by genre."],
             ["Movie Reviews:","  Users can review movies and check other users’ reviews on all movies."],
             ["Admin Dashboard"," An admin dashboard is available for adding/deleting movies, editing movie details, and managing user reviews on movies."],
-            ["Responsive-design:"," The website is designed with different screen sizes in mind. So it works well with all devices."]
+            ["Responsive-design:"," The website is designed with different screen sizes in mind, which allows it to works well with all devices."]
         ]),
         tech: "The web application, developed with .NET Core Web API, EF Core, SQL Server, Angular, and PrimeNG, combines a user-friendly front-end with a secure, efficient back-end.",
         arch: new Map<string, string>([
@@ -91,7 +91,7 @@ export class ConcreteProjects {
             ["JWT and Refresh Tokens:"," The application uses JSON Web Tokens (JWT) and refresh tokens for secure and efficient user authentication."],
             ["Efficient Pagination:"," The application implements pagination on both the front-end and back-end, enhancing performance and user experience by loading data incrementally."],
             ["Role Management:"," This allows to have the usual users who can check and review the movies on the website, and the admins who manage the content of the website."],
-            ["Cloudinary Integration:"," The application can manage media files efficiently using Cloudinary."]
+            ["Cloudinary Integration:"," The application can manage media files efficiently using a cloud service, Cloudinary."]
         ]),
         logos: new Map<string, string>( [
             ["HTML5","https://res.cloudinary.com/dhazmjqap/image/upload/v1713740499/html_nclh4a.png"],
