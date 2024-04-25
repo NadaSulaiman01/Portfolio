@@ -8,6 +8,9 @@
         <h5>Software Engineer</h5>
         <h6>Cairo, Egypt</h6>
         <br>
-        <p>Email: <a href="mailto:nadamohkh@gmail.com" class="email">nadamohkh@gmail.com</a></p>
+        <div class="email-container" (mouseover)="showCopyIcon = true" (mouseleave)="showCopyIcon = false">
+        <p>Email: <a href="mailto:nadamohkh@gmail.com" class="email pe-1" #target>nadamohkh@gmail.com</a><i class="copy-icon bi bi-copy" [positionTarget]="target" ngbPopover="Copied to clipboard" title="Copy"  *ngIf="showCopyIcon" (click)="copyEmail()"></i></p>
+        
+    </div>
     </div>
 </div>

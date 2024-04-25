@@ -12,6 +12,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { CardComponent } from './components/card/card.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    NgbPopoverModule
   ],
   providers: [],
   bootstrap: [AppComponent]
