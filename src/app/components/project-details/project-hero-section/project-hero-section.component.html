@@ -1,44 +1,11 @@
-<!-- <div class="d-flex justify-content-center align-items-center mt-4">
-    <div class="sizing">
-        <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-md-start align-items-center py-5 main">
-            <div class="data px-5 pt-3">
-                <h1 class="mb-4">Online Bookstore</h1>
-                <p class="text-dark">This page has an overview of the online bookstore projects.
-                    I have mentioned its overview, features, technical implementation and architecture, as well as tools
-                    used.
-                    you can check the tools and technologies used at the end of this page.
-                </p>
-            </div>
-            <div class="pt-3 px-5">
-                <img src="https://res.cloudinary.com/dhazmjqap/image/upload/v1713594719/monitor2_fhllrd.png" alt="Online Bookstore">
-            </div>
-        </div>
-
-    </div>
-</div> -->
-
-<!-- <div class="d-flex justify-content-center align-items-center mt-4">
-    <div class="sizing">
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="imgDiv m-5 d-flex justify-content-center align-items-center">
-                <div class="text-center textData">
-                <h1 class="text-primary headerOne">Online BookStore</h1>
-                <p class="text-primary sub">An Online Shopping Platform</p>
-
-            </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
 <div class="d-flex justify-content-center align-items-center">
     <div class="sizing d-flex flex-column justify-content-center align-items-center py-5">
         <div class="icon bg-primary d-flex justify-content-center align-content-center">
-            <i [ngClass]="project.icon"></i>
+            <i class="pt-1" [ngClass]="project.icon"></i>
         </div>
-        <h1 class="mainHeader mb-4 text-center">{{project.title}}</h1>
+        <h1 class="mainHeader px-4 mb-4 text-center">{{project.title}}</h1>
         <div class="simpleLine mb-4"></div>
-        <p class="subtitle text-center">{{project.subTitle}}</p>
+        <p class="subtitle px-4 text-center">{{project.subTitle}}</p>
         <div class="buttons d-flex flex-column flex-md-row justify-content-center align-items-start align-items-md-center">
             <button type="button" class="btn btn-primary me-3 text-center mb-3" [routerLink]="['/projects/project', project.projectId]" fragment="overview" >Overview</button>
             <button type="button" class="btn btn-secondary button2 text-center mb-3" [routerLink]="['/projects/project', project.projectId]" fragment="gallery">Gallery</button>

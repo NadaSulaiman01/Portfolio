@@ -47,9 +47,24 @@ export class ConcreteProjects {
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895540/two_kucpec.png",
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895527/three_hciixr.png",
             "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895528/four_udseqh.png",
-            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895531/five_z7ahya.png"
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895531/five_z7ahya.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038867/six_fyqkw7.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038866/seven_yszl4z.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038875/eight_oibwlw.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038866/nine_lbdaly.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038869/ten_cj3y8q.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038863/eleven_s1gmta.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038869/twelve_rfimrc.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038869/thirteen_ybbnec.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038868/fourteen_jwk9f7.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038863/fifteen_qqqgwa.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038868/sixteen_ch7yy7.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038867/seventeen_fuap6s.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038864/eighteen_reo8cy.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714038865/nineteen_hjgvtg.png"
         ],
-        github: "https://github.com/NadaSulaiman01/eCommerce_MVC"
+        github: "https://github.com/NadaSulaiman01/eCommerce_MVC",
+        video: "https://res.cloudinary.com/dhazmjqap/video/upload/v1714058324/1_1__1_1_pclp8t.mp4"
     },
     {
         projectId: 1,
@@ -87,13 +102,20 @@ export class ConcreteProjects {
             ["SQL Server", "https://res.cloudinary.com/dhazmjqap/image/upload/v1713740500/sql_server_l4xjc4.png"],
           
         ]),
-        screenshots : ["https://res.cloudinary.com/dhazmjqap/image/upload/v1713895544/one_kjwf7a.png",
-            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895540/two_kucpec.png",
-            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895527/three_hciixr.png",
-            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895528/four_udseqh.png",
-            "https://res.cloudinary.com/dhazmjqap/image/upload/v1713895531/five_z7ahya.png"
+        screenshots : ["https://res.cloudinary.com/dhazmjqap/image/upload/v1714040172/1_zetenq.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040168/2_klomt0.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040170/3_cjim0w.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040170/4_n0kii7.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040167/5_a5ttwc.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040169/6_g8tlaz.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040170/7_bxjhxt.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040172/8_krrk5o.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040172/9_y2qhku.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040172/10_bebv9b.png",
+            "https://res.cloudinary.com/dhazmjqap/image/upload/v1714040175/11_ir4qii.png"
         ],
-        github: "https://github.com/NadaSulaiman01/Movies"
+        github: "https://github.com/NadaSulaiman01/Movies",
+        video: "https://res.cloudinary.com/dhazmjqap/video/upload/v1714058341/1_2_1_1_rajljz.mp4"
     }
 ];
 

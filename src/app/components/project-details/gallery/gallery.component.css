@@ -34,27 +34,6 @@ a{
     min-width: 200px;
   }
 
-  .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-image: none;
-}
-
-.carousel-control-prev-icon:after,
-.carousel-control-next-icon:after {
-  content: '';
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  background: no-repeat 50%/100% 100%;
-}
-
-.carousel-control-prev-icon:after {
-  background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'%23000000\' viewBox=\'0 0 16 16\'%3E%3Cpath d=\'M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z\'/%3E%3C/svg%3E');
-}
-
-.carousel-control-next-icon:after {
-  background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'%23000000\' viewBox=\'0 0 16 16\'%3E%3Cpath d=\'M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z\'/%3E%3C/svg%3E');
-}
 
 .buttons{
   margin-top: 5rem;
@@ -84,4 +63,26 @@ button:hover{
 
 .button2{
   border: 1px solid rgba(0, 0, 0, 0.495);
+}
+
+img{
+  max-width: 75%;
+  border: 1px solid gray;
+}
+
+
+@media only screen and (max-width: 450px) {
+
+  img{
+    max-width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 920px) {
+
+  img{
+    max-width: 85%;
+  }
+
 }
