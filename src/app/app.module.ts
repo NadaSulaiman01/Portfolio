@@ -14,6 +14,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     ProjectsComponent,
     ContactComponent,
     CardComponent,
-    HomePageComponent
+    HomePageComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
