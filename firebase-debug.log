@@ -1,0 +1,123 @@
+[debug] [2024-04-26T11:00:57.343Z] ----------------------------------------------------------------------
+[debug] [2024-04-26T11:00:57.344Z] Command:       C:\Users\NSULAI~1\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\nsulaiman\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2024-04-26T11:00:57.345Z] CLI Version:   13.7.5
+[debug] [2024-04-26T11:00:57.345Z] Platform:      win32
+[debug] [2024-04-26T11:00:57.345Z] Node Version:  v18.5.0
+[debug] [2024-04-26T11:00:57.348Z] Time:          Fri Apr 26 2024 13:00:57 GMT+0200 (Eastern European Standard Time)
+[debug] [2024-04-26T11:00:57.348Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-26T11:00:57.358Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-26T11:00:57.358Z] > authorizing via signed-in user (nadamohkh@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nsulaiman\portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-04-26T11:07:53.178Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-04-26T11:07:53.178Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"Nada-Mohammed","name":"Nada Mohammed"}
+[debug] [2024-04-26T11:07:54.153Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-04-26T11:07:54.153Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-04-26T11:07:54.399Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\nsulaiman\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\nsulaiman\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-04-26T11:12:15.900Z] ----------------------------------------------------------------------
+[debug] [2024-04-26T11:12:15.901Z] Command:       C:\Users\NSULAI~1\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\nsulaiman\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2024-04-26T11:12:15.901Z] CLI Version:   13.7.5
+[debug] [2024-04-26T11:12:15.901Z] Platform:      win32
+[debug] [2024-04-26T11:12:15.902Z] Node Version:  v18.5.0
+[debug] [2024-04-26T11:12:15.904Z] Time:          Fri Apr 26 2024 13:12:15 GMT+0200 (Eastern European Standard Time)
+[debug] [2024-04-26T11:12:15.904Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-26T11:12:15.914Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-26T11:12:15.914Z] > authorizing via signed-in user (nadamohkh@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nsulaiman\portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-26T11:12:34.499Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-26T11:12:35.114Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-26T11:12:35.114Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project nada-mohammed-bcc31 (Nada-Mohammed) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-26T11:15:20.776Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nada-mohammed-bcc31 [none]
+[debug] [2024-04-26T11:15:21.190Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nada-mohammed-bcc31 200
+[debug] [2024-04-26T11:15:21.190Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nada-mohammed-bcc31 {"projectId":"nada-mohammed-bcc31","projectNumber":"318720654442","displayName":"Nada-Mohammed","name":"projects/nada-mohammed-bcc31","resources":{"hostingSite":"nada-mohammed-bcc31"},"state":"ACTIVE","etag":"1_646b32ef-ceb0-4b43-854c-00192653e02a"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-04-26T11:16:18.321Z] ----------------------------------------------------------------------
+[debug] [2024-04-26T11:16:18.323Z] Command:       C:\Users\NSULAI~1\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\nsulaiman\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2024-04-26T11:16:18.323Z] CLI Version:   13.7.5
+[debug] [2024-04-26T11:16:18.323Z] Platform:      win32
+[debug] [2024-04-26T11:16:18.323Z] Node Version:  v18.5.0
+[debug] [2024-04-26T11:16:18.326Z] Time:          Fri Apr 26 2024 13:16:18 GMT+0200 (Eastern European Standard Time)
+[debug] [2024-04-26T11:16:18.326Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-26T11:16:18.335Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-26T11:16:18.336Z] > authorizing via signed-in user (nadamohkh@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nsulaiman\portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-26T11:16:27.831Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-26T11:16:28.461Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-26T11:16:28.461Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project nada-mo (NadaMohammed) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-26T11:16:33.269Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nada-mo [none]
+[debug] [2024-04-26T11:16:33.667Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nada-mo 200
+[debug] [2024-04-26T11:16:33.667Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nada-mo {"projectId":"nada-mo","projectNumber":"757825204850","displayName":"NadaMohammed","name":"projects/nada-mo","resources":{"hostingSite":"nada-mo"},"state":"ACTIVE","etag":"1_15f0af4f-a293-4fb3-a50f-a7d5ee7422a8"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
