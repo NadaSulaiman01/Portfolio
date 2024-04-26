@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+
+  @ViewChild("CollapseButton") collapseBtn : ElementRef | undefined;
+
+  clickButton(){
+    let navbar = document.getElementById('navbarNav');
+    if (navbar!.classList.contains('show')) {
+      this.collapseBtn?.nativeElement.click();
+    }
+}
 
 }
