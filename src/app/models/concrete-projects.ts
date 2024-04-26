@@ -12,7 +12,7 @@ export class ConcreteProjects {
         features: new Map<string, string>( [
             ["User-Friendly Design:"," The website has a clean and intuitive design, making it easy for users to browse and find what they’re looking for."],
             ["Secure User Accounts:"," Users can create their own personal accounts, allowing them to track their orders, save their shipping information, and more."],
-            ["Social Media Login:","  For convenience, users have the option to log in using their Google or Facebook accounts."],
+            ["Social Media Login:","  For convenience, users have the option to log in using their Microsoft or Facebook accounts."],
             ["Product Variety:"," The website offers a wide range of products, catering to different tastes and needs."],
             ["Shopping Cart:"," Users can easily add items to their shopping cart and view their selected items before making a purchase."],
             ["Different Payment Options:"," The website offers secure online payments as well as pay cash upon delivery option."],
@@ -22,18 +22,18 @@ export class ConcreteProjects {
         ]),
         tech: "The web application is built using ASP.NET Core MVC, Entity Framework Core, and ASP.NET Core Identity. The application is designed with a user-friendly interface and secure, efficient back-end functionalities.",
         arch: new Map<string, string>([
-            ["ASP.NET Core MVC Structure:"," The application follows the Model-View-Controller (MVC) design pattern, ensuring a clean separation of concerns and easier maintenance."],
+            ["ASP.NET Core MVC:"," The application follows the Model-View-Controller (MVC) design pattern, ensuring a clean separation of concerns and easier maintenance."],
             ["Entity Framework Core:"," This ORM is used to simplify database operations and for efficient data manipulation using code-first migrations."],
             ["ASP.NET Core Identity:"," This provides secure user authentication and authorization."],
             ["Razor Class Library Interaction:"," The application interacts with the Razor class library for Identity."],
             ["Session Management:"," The application effectively manages user sessions, ensuring a personalized user experience."],
             ["Bootstrap v5:"," This ensures the application is mobile-friendly and has a modern, responsive design."],
-            ["Third-Party Authentication:"," The application supports Google and Facebook login."],
+            ["Third-Party Authentication:"," The application supports Microsoft and Facebook login."],
             ["Role Management:"," This feature allows for the assignment of roles to users, enhancing the security and functionality of the application."],
             ["Email Notifications:"," The application can send email notifications using SendGrid."],
             ["Stripe Payment Integration:"," This allows for secure online payments."],
             ["Repository Pattern:"," This design pattern is used for data access, making the code more readable, scalable, and maintainable."],
-            ["N-tier architecture:","This is used separate concerns and promote modularity, making the system easier to manage, maintain, and scale."]
+            ["N-Tier Architecture:","This is to used separate concerns and promote modularity, making the system easier to manage, maintain, and scale."]
         ]),
         logos: new Map<string, string>( [
             ["HTML5","https://res.cloudinary.com/dhazmjqap/image/upload/v1713740499/html_nclh4a.png"],
@@ -80,17 +80,17 @@ export class ConcreteProjects {
             ["Genre-Based Browsing:"," Users can explore movies by genre."],
             ["Movie Reviews:","  Users can review movies and check other users’ reviews on all movies."],
             ["Admin Dashboard"," An admin dashboard is available for adding/deleting movies, editing movie details, and managing user reviews on movies."],
-            ["Responsive-design:"," The website is designed with different screen sizes in mind, which allows it to works well with all devices."]
+            ["Responsive Design:"," The website is designed with different screen sizes in mind, which allows it to works well on all devices."]
         ]),
         tech: "The web application, developed with .NET Core Web API, EF Core, SQL Server, Angular, and PrimeNG, combines a user-friendly front-end with a secure, efficient back-end.",
         arch: new Map<string, string>([
-            [".NET Core Web API:"," The website used .NET Web API to integrate with the Angular frontend."],
+            [".NET Core Web API:"," The website uses .NET Web API to integrate with the Angular frontend."],
             ["Entity Framework Core:"," This allows for efficient data access and manipulation using code-first migrations."],
             ["ASP.NET Core Identity:"," This provides secure user authentication and authorization."],
             ["Angular and PrimeNG:"," These are used to provide the website with a modern and responsive interface."],
             ["JWT and Refresh Tokens:"," The application uses JSON Web Tokens (JWT) and refresh tokens for secure and efficient user authentication."],
             ["Efficient Pagination:"," The application implements pagination on both the front-end and back-end, enhancing performance and user experience by loading data incrementally."],
-            ["Role Management:"," This allows to have the usual users who can check and review the movies on the website, and the admins who manage the content of the website."],
+            ["Role Management:"," This allows to have the standard users who can check and review the movies on the website, and the admins who manage the content of the website."],
             ["Cloudinary Integration:"," The application can manage media files efficiently using a cloud service, Cloudinary."]
         ]),
         logos: new Map<string, string>( [
