@@ -23,7 +23,7 @@ export class ConcreteProjects {
         tech: "The web application is built using ASP.NET Core MVC, Entity Framework Core, and ASP.NET Core Identity. The application is designed with a user-friendly interface and secure, efficient back-end functionalities.",
         arch: new Map<string, string>([
             ["ASP.NET Core MVC Structure:"," The application follows the Model-View-Controller (MVC) design pattern, ensuring a clean separation of concerns and easier maintenance."],
-            ["Entity Framework Core:"," This ORM is used to simplify database operations and for efficient data and manipulation using code-first migrations."],
+            ["Entity Framework Core:"," This ORM is used to simplify database operations and for efficient data manipulation using code-first migrations."],
             ["ASP.NET Core Identity:"," This provides secure user authentication and authorization."],
             ["Razor Class Library Interaction:"," The application interacts with the Razor class library for Identity."],
             ["Session Management:"," The application effectively manages user sessions, ensuring a personalized user experience."],
