@@ -3,7 +3,10 @@ nav {
     position: fixed;
     z-index: 1000;
 }
-
+.nav-container{
+    max-width: 120rem;
+    width: 100%;   
+}
 img {
     max-width: 30px;
     height: auto;

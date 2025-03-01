@@ -1,12 +1,12 @@
-a {
+.footer-link {
     font-size: 25px;
 }
 
-.footerMain{
+.footer-container {
     margin-top: 5rem;
 }
 
-.data {
+.footer-content {
     max-width: 120rem;
     width: 100%;
 }

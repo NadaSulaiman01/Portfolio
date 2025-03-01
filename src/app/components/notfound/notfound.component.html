@@ -1,16 +1,18 @@
-<div class=" px-md-5 px-2 sizing">
-    <div class="secondDiv pt-3">
+<div class="px-md-5 px-2 container-sizing">
+    <div class="content-wrapper pt-3">
         <div class="px-md-5 px-1 pt-5 d-flex justify-content-center align-items-center">
-            <div class="card myCard m-md-5 p-3">
+            <div class="card error-card m-md-5 p-3">
                 <div class="card-body">
-                    <h1 class="card-title text-center mb-4 text-danger">Page not found</h1>
+                    <h1 class="card-title text-center mb-4 text-danger error-title">Page not found</h1>
                     <div class="mb-4">
-                        <p class="card-text text-center">Lost your way?</p>
-                        <p class="card-text text-center"> click <strong [routerLink]="['']"><a>here</a></strong></p>
+                        <p class="card-text text-center error-text">Lost your way?</p>
+                        <p class="card-text text-center error-text">
+                            Click <strong [routerLink]="['']"><a class="link">here</a></strong>
+                        </p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center align-content-center px-4 mt-3">
-                    <img src="../../../assets/images/smallTrex.png" alt="not found">
+                    <img src="../../../assets/images/smallTrex.png" alt="not found" class="error-image">
                 </div>
             </div>
         </div>

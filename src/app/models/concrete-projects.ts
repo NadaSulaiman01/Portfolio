@@ -13,7 +13,7 @@ export class ConcreteProjects {
             ["User-Friendly Design:"," The website has a clean and intuitive design, making it easy for users to browse and find what they’re looking for."],
             ["Secure User Accounts:"," Users can create their own personal accounts, allowing them to track their orders, save their shipping information, and more."],
             ["Social Media Login:","  For convenience, users have the option to log in using their Microsoft or Facebook accounts."],
-            ["Product Variety:"," The website offers a wide range of products, catering to different tastes and needs."],
+            // ["Product Variety:"," The website offers a wide range of products, catering to different tastes and needs."],
             ["Shopping Cart:"," Users can easily add items to their shopping cart and view their selected items before making a purchase."],
             ["Different Payment Options:"," The website offers secure online payments as well as pay cash upon delivery option."],
             ["Email Notifications:"," Users receive email notifications about their orders, keeping them updated on the status of their purchases."],

@@ -1,65 +1,61 @@
-.line {
-    width: 30%;
-    border: none;
-    border-top: 2px solid black;
-  }
-  
-  .title{
-    font-weight: 700;
-    min-width: 200px;
-  }
-
-  p{
-    font-weight: 400;
-    font-size:24px;
+.section-divider {
+  width: 30%;
+  border: none;
+  border-top: 2px solid black;
 }
 
-.mainDiv{
-    padding-top: 2rem;
-    /* max-width: 120rem; */
+.section-title {
+  font-weight: 700;
+  min-width: 200px;
 }
 
-.subtitle{
+.section-text {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.section-container {
+  padding-top: 2rem;
+}
+
+.section-subtitle {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   max-width: 120rem;
 }
 
-.arrow{
+.arrow-icon {
   max-width: 30%;
 }
 
 @media only screen and (min-width: 992px) {
-  .subtitle{
-    margin-left: 10rem;
-    margin-right: 10rem;
+  .section-subtitle {
+      margin-left: 10rem;
+      margin-right: 10rem;
   }
-  .imgDiv{
-    max-width: 50%;
+
+  .image-container {
+      max-width: 50%;
   }
-  /* .projectDescription{
-    margin-right: 8rem;
-  } */
-  .projectDescription{
-    max-width: 50%;
+
+  .project-details {
+      max-width: 50%;
   }
-  
-.arrow{
-  max-width: 10%;
-}
+
+  .arrow-icon {
+      max-width: 10%;
+  }
 }
 
-
-img{
+img {
   max-width: 80%;
-
 }
 
-.projectDescription p{
+.project-details p {
   font-size: 18px;
 }
 
-button {
+.btn-custom {
   display: inline-block;
   padding: 10px 20px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -67,50 +63,47 @@ button {
   transition: all 0.3s ease 0s;
 }
 
-button:hover{
+.btn-custom:hover {
   box-shadow: 0px 5px 5px rgba(20, 6, 48, 0.26);
   transform: translateY(-4px);
-  color:darkslategray;
+  color: darkslategray;
   background-color: aliceblue;
   font-weight: 800;
-
 }
 
-a{
+.link-bold {
   text-decoration: none;
   font-weight: 900;
 }
 
-span{
+.highlight-text {
   font-size: large;
 }
 
-.projects{
+.projects-container {
   max-width: 120rem;
 }
 
-.secondDiv{
+.full-width {
   max-width: 100%;
 }
 
-.secSubtitle{
+.description-container {
   max-width: 65rem;
 }
 
-.sizing{
+.max-width-container {
   max-width: 120rem;
 }
 
-.mainAbout{
+.main-content {
   margin-left: 4rem;
   margin-right: 4rem;
 }
 
 @media only screen and (max-width: 767.98px) {
-
-
-  .mainAbout{
-    margin-left: 1rem;
-    margin-right: 1rem;
+  .main-content {
+      margin-left: 1rem;
+      margin-right: 1rem;
   }
 }

@@ -1,25 +1,50 @@
-.sizing{
+.container-wrapper {
     max-width: 120rem;
     width: 100%;
 }
 
-p{
+.text-large {
     font-size: large;
 }
 
-strong{
+.list-item {
     font-size: large;
 }
 
-li{
+.text-bold {
     font-size: large;
+    font-weight: bold;
 }
 
-.image{
+.image-container {
     min-width: 3rem;
     max-width: 8rem;
 }
 
-img{
+.image-full {
     width: 100%;
+}
+
+.accordion-header-custom {
+    cursor: pointer;
+}
+
+.accordion-toggle {
+    transition: background-color 0.3s ease;
+}
+
+.framework-section {
+    padding: 2rem 0;
+}
+
+.framework-heading {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }

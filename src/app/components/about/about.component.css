@@ -9,24 +9,21 @@
     min-width: 200px;
   }
 
-  .mainAbout{
+  .main-about{
     margin-left: 4rem;
     margin-right: 4rem;
   }
 
   @media only screen and (max-width: 767.98px) {
 
-    .mainAbout{
+    .main-about{
       margin-left: 2rem;
       margin-right: 2rem;
     }
   
 }
-
-
   .skills{
-     min-width: 40%; 
-    
+     min-width: 40%;     
   }
 
   .qualifications{
@@ -40,12 +37,8 @@
     .qualifications{
       padding-left: 1rem;
       padding-right: 1rem;
-    }
-  
-  
+    } 
 }
-
-
   p{
     font-size: 18px;
   }
@@ -70,11 +63,11 @@
   cursor: default;
 }
 
-.sizing{
+.max-width{
   max-width: 120rem;
 }
 
-.secondDiv{
+.about-container{
   max-width: 100%;
 }
 

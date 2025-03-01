@@ -12,9 +12,9 @@ h4 {
     max-width: 520px;
 }
 
-.main:hover {
+/* .main:hover {
     transform: rotatey(360deg);
-}
+} */
 
 a {
     text-decoration: none;
@@ -25,18 +25,17 @@ img {
     max-width: 80px;
     height: fit-content;
     border: 1px solid gainsboro;
-    /* border-radius: 30px; */
 }
 
-.details {
-    min-width: 260px;
+.card-body {
+    min-width: 280px;
     padding-right: 1.5rem;
 }
 
 
 @media only screen and (max-width: 380px) {
 
-    .details {
+    .card-body {
         min-width: 150px;
         margin-right: 2rem;
         padding-right: 1rem;
@@ -75,7 +74,6 @@ img {
         max-width: 60px;
         height: fit-content;
         border: 1px solid gainsboro;
-        /* border-radius: 30px; */
     }
     
 

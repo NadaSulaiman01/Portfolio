@@ -1,39 +1,35 @@
-.line {
-    width: 30%;
-    border: none;
-    border-top: 2px solid black;
-  }
-  
-  .title{
-    font-weight: 700;
-    min-width: 200px;
-  }
+.divider {
+  width: 30%;
+  border: none;
+  border-top: 2px solid black;
+}
 
-  p{
-    font-size: 18px;
-  }
+.section-title {
+  font-weight: 700;
+  min-width: 200px;
+}
 
+.text-paragraph {
+  font-size: 18px;
+}
 
+.container-full {
+  max-width: 120rem;
+  width: 100%;
+}
 
-  .secondDiv{
-    max-width: 120rem;
-    width: 100%;
-  }
+.content-wrapper {
+  max-width: 120rem;
+}
 
-  .sizing{
-    max-width: 120rem;
-  }
-  
-  .mainContact{
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
+.contact-section {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
 
-  @media only screen and (max-width: 767.98px) {
-
-    .mainContact{
+@media only screen and (max-width: 767.98px) {
+  .contact-section {
       margin-left: 2rem;
       margin-right: 2rem;
-    }
-  
+  }
 }

@@ -1,56 +1,46 @@
 <div class="d-flex justify-content-center align-items-center">
-    <div class="secondDiv">
-
-        <div class=" mainDiv">
-            <div class="sizing d-flex justify-content-between align-items-center text-center mb-1 pb-1 mt-xl-3">
-                <hr class="line">
-                <h1 class="title">Projects</h1>
-                <hr class="line">
+    <div class="full-width">
+        <div class="section-container">
+            <div class="max-width-container d-flex justify-content-between align-items-center text-center mb-1 pb-1 mt-xl-3">
+                <hr class="section-divider">
+                <h1 class="section-title">Projects</h1>
+                <hr class="section-divider">
             </div>
         </div>
-        <div class="mainAbout sizing">
-        <div class="d-flex justify-content-center align-items-center subtitle mb-1 mt-3">
-            <div class="secSubtitle text-center">
-            <p>This is a collection of full-stack projects that I have developed. For a more detailed view of each
-                project, click on the ‘Details’ button.</p>
-            </div>
-        </div>
-
-        <div class="projects d-flex flex-column">
-            <div *ngFor="let project of projects">
-                <div
-                    class="d-flex flex-column-reverse flex-lg-row justify-content-around align-items-start mb-lg-3 mb-5 mt-5 mx-0">
-                    <div class="d-flex justify-content-center align-items-center imgDiv">
-                        <img [src]=project.imageURL [alt]=project.title>
-                    </div>
-                    <div
-                        class="projectDescription px-4 py-2 d-flex flex-column justify-content-center mx-0 mb-5  ">
-                        <h3 class="mb-4">{{project.title}}</h3>
-                        <div class="innerDescription">
-                        <p class="mb-4" [innerHTML]="project.description">
-                        </p>
-                    </div>
-                        <div>
-                            <button type="button" [routerLink]="['/projects/project', project.projectId]" fragment="hero" class="btn btn-primary">Details</button>
-                        </div>
-
-                    </div>
-
+        <div class="main-content max-width-container">
+            <div class="d-flex justify-content-center align-items-center section-subtitle mb-1 mt-3">
+                <div class="description-container text-center">
+                    <p class="section-text">This is a collection of full-stack projects I have developed. For a more detailed view of each
+                        project, click on the Details button.</p>
                 </div>
             </div>
 
-        </div>
-        <div class="projects mb-5 pb-5 text-center">
-            <div>
-                <img class="arrow"
-                    src="../../../assets/images/arrow.png"
-                    alt="down pointing arrow">
+            <div class="projects-container d-flex flex-column">
+                <div *ngFor="let project of projects">
+                    <div class="d-flex flex-column-reverse flex-lg-row justify-content-around align-items-start mb-lg-3 mb-5 mt-5 mx-0">
+                        <div class="d-flex justify-content-center align-items-center image-container">
+                            <img [src]=project.imageURL [alt]=project.title>
+                        </div>
+                        <div class="project-details px-4 py-2 d-flex flex-column justify-content-center mx-0 mb-5">
+                            <h3 class="mb-4">{{project.title}}</h3>
+                            <div class="inner-description">
+                                <p class="mb-4" [innerHTML]="project.description"></p>
+                            </div>
+                            <div>
+                                <button type="button" [routerLink]="['/projects/project', project.projectId]" fragment="hero" class="btn btn-primary btn-custom">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p>Want to explore more of my work? </p>
-            <span>Check out my Github <a href="https://github.com/NadaSulaiman01" target="_blank">here <i
-                        class="bi bi-github"></i> </a></span>
-        </div>
-    </div>
 
+            <div class="projects-container mb-5 pb-5 text-center">
+                <div>
+                    <img class="arrow-icon" src="../../../assets/images/arrow.png" alt="down pointing arrow">
+                </div>
+                <p class="section-text">Want to explore more of my work?</p>
+                <span class="highlight-text">Check out my Github <a href="https://github.com/NadaSulaiman01" target="_blank" class="link-bold">here <i class="bi bi-github"></i></a></span>
+            </div>
+        </div>
     </div>
 </div>

@@ -3,14 +3,13 @@
         <img src="../../../assets/images/lightlogo.jpg" alt="Nada Mohammed"
             class="me-3 me-lg-5 shadow-sm">
     </div>
-    <div class="details">
+    <div class="card-body">
         <h4>Nada Mohammed</h4>
         <h5>Software Engineer</h5>
         <h6>Cairo, Egypt</h6>
         <br>
-        <div class="email-container" (mouseover)="showCopyIcon = true" (mouseleave)="showCopyIcon = false">
-        <p>Email: <a href="mailto:nadamohkh@gmail.com" class="email pe-1" #target>nadamohkh@gmail.com</a><i class="copy-icon bi bi-copy" [positionTarget]="target" ngbPopover="Copied to clipboard" title="Copy"  *ngIf="showCopyIcon" (click)="copyEmail()"></i></p>
-        
-    </div>
+        <div class="d-flex" (mouseover)="showCopyIcon = true" (mouseleave)="showCopyIcon = false">
+            <p>Email: <a href="mailto:nadasulaiman01@gmail.com" class="email pe-1" #target>nadasulaiman01@gmail.com</a><i class="copy-icon bi bi-copy" [positionTarget]="target" ngbPopover="Copied to clipboard" title="Copy"  *ngIf="showCopyIcon" (click)="copyEmail()"></i></p>        
+        </div>
     </div>
 </div>

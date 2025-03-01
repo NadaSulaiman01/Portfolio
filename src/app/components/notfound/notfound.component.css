@@ -1,24 +1,25 @@
-.sizing{
+.container-sizing {
     max-width: 120rem;
+    margin-inline: auto;
 }
 
-a{
+.link {
     cursor: pointer;
 }
 
-p{
+.error-text {
     font-weight: 300;
     font-size: 20px;
 }
 
-h1{
+.error-title {
     font-weight: 900;
 }
 
-img{
+.error-image {
     max-width: 100%;
 }
 
-.myCard{
+.error-card {
     max-width: 25rem;
 }

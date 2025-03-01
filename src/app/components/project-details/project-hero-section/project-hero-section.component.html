@@ -1,14 +1,18 @@
 <div class="d-flex justify-content-center align-items-center">
-    <div class="sizing d-flex flex-column justify-content-center align-items-center py-5">
-        <div class="icon bg-primary d-flex justify-content-center align-content-center">
+    <div class="container-box d-flex flex-column justify-content-center align-items-center py-5">
+        <div class="icon-box bg-primary d-flex justify-content-center align-content-center">
             <i class="pt-1" [ngClass]="project.icon"></i>
         </div>
-        <h1 class="mainHeader px-4 mb-4 text-center">{{project.title}}</h1>
-        <div class="simpleLine mb-4"></div>
-        <p class="subtitle px-4 text-center">{{project.subTitle}}</p>
-        <div class="buttons d-flex flex-column flex-md-row justify-content-center align-items-start align-items-md-center">
-            <button type="button" class="btn btn-primary me-3 text-center mb-3" [routerLink]="['/projects/project', project.projectId]" fragment="overview" >Overview</button>
-            <button type="button" class="btn btn-secondary button2 text-center mb-3" [routerLink]="['/projects/project', project.projectId]" fragment="gallery">Gallery</button>
+        <h1 class="heading-primary px-4 mb-4 text-center">{{project.title}}</h1>
+        <div class="divider mb-4"></div>
+        <p class="heading-secondary px-4 text-center">{{project.subTitle}}</p>
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-start align-items-md-center">
+            <button type="button" class="btn btn-primary btn-custom me-3 text-center mb-3" 
+                [routerLink]="['/projects/project', project.projectId]" fragment="overview">Overview
+            </button>
+            <button type="button" class="btn btn-secondary btn-custom btn-secondary-custom text-center mb-3" 
+                [routerLink]="['/projects/project', project.projectId]" fragment="gallery">Gallery
+            </button>
         </div>
     </div>
 </div>

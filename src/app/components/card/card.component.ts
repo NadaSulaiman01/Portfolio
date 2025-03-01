@@ -14,7 +14,7 @@ export class CardComponent {
   constructor(private _clipboardService: ClipboardService) {}
 
   copyEmail() {
-    this._clipboardService.copy("nadamohkh@gmail.com");
+    this._clipboardService.copy("nadasulaiman01@gmail.com");
     this.isCopied = true;
     setTimeout(() => {
       this.isCopied = false;
